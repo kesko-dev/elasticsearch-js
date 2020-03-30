@@ -471,7 +471,7 @@ async function ESAPI (opts) {
     // scripts_painless_execute: require('./api/scripts_painless_execute.js')(opts),
     // scriptsPainlessExecute: require('./api/scripts_painless_execute.js')(opts),
     // scroll: require('./api/scroll.js')(opts),
-    // search: require('./api/search.js')(opts),
+    search: require('./api/search.js')(opts),
     // search_shards: require('./api/search_shards.js')(opts),
     // searchShards: require('./api/search_shards.js')(opts),
     // search_template: require('./api/search_template.js')(opts),
